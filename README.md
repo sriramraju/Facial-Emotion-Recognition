@@ -13,7 +13,7 @@ A publicly available dataset of facial expressions on the Kaggle website (https:
 Achieving an accuracy better than human performance which is reported to be 65.5 %.
 
 ## Code Highlights
-> Class weightage to handle non-uniform number of training samples across mulitple classes
-> Grad CAM visualiation to understand what regions of face contribute the decision to a certain prediction class.
+Class weightage to handle non-uniform number of training samples across mulitple classes. Grad CAM visualiation to understand what regions of face contribute the decision to a certain prediction class.
 
-Results: Four models are built for recognizing facial expressions from gray scale images. All the models are trained and tested on the same dataset. For consistency purposes, all the models are trained with same optimizer and same number of dense layers. Model #4 performed the best with an overall test accuracy of 65%, which is similar to the human performance reported 65-70%.
+## Results
+Four models are built for recognizing facial expressions from gray scale images. All the models are trained and tested on the same dataset. For consistency purposes, all the models are trained with same optimizer and same number of dense layers. Model #4 performed the best with an overall test accuracy of 65%, which is similar to the human performance reported 65-70%.
